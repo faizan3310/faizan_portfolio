@@ -1,0 +1,42 @@
+h2{
+    text-align: center;
+    color: ghostwhite;
+}
+body{
+    background-color: rgb(11, 34, 11);
+}
+.box1{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    width: 500px;
+    height: 250px;
+    border: 2px solid;
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+}
+ul{
+    text-align: center;
+    display: inline-block;
+}
+.title{
+    position: absolute;
+    top: 50px;
+    left:500px;
+    top: 100px;
+    color: pink;
+    font-size: large;
+}
+li{
+    list-style: none;
+}
+#box{
+    width: 100px;
+    height: 20px;
+    border: 1px solid;
+    color: navy;
+    background-color: rgb(104, 159, 206);
+    position: relative;
+    left: 5px;
+}

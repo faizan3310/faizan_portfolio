@@ -1,0 +1,55 @@
+.title{
+    border: 2px maroon;
+    border-radius: 80px;
+    color: maroon;
+    text-align: center;
+    font-size: x-large;
+    text-decoration-line: underline;
+    font-style: italic;
+}
+body{
+    background-color: green;
+}
+#text{
+font-size: xx-large;
+color: white;
+position: relative;
+left: 240px;
+margin: 20px;
+
+}
+#nxt{
+    width: 200px;
+    height: 50px;
+    background-color: lavender;
+    font-family: cursive;
+    font-size: large;
+    position: absolute;
+    left: 1000px;
+    top: 400px;
+}
+#num{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 750px ;
+    top:400px ;
+    border-radius: 50px;
+
+}
+.coin{
+    width: 650px;
+    height: 800px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: palevioletred;
+    
+}

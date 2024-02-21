@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> COIN-PICKER </title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+            <div class="title"> <h1> <b> TAMBOLA </b> </h1> </div>
+            <div id="num"> 0 </div>
+            <button id="nxt" onclick="start()"> NEXT</button>
+       
+        <div id="text"> Chart</div>
+        <div id="buttons" class="coin"></div>
+        <div class="container"></div>
+        <script>
+                var box = [];
+
+                var chart = () => {
+                var button = '' ; 
+                    for( var a = 1 ; a <= 90; a++){
+                     button += "<button id = " +a+ ">"  +a+  "</button>" ; 
+                    }
+                return button;
+                }
+
+                var start = () => {
+                var number = Math.floor((Math.random() * 90));
+                    for( var i = 1; i < box.length; i++ ){
+                        if(number == box[i]){
+                            number = Math.floor((Math.random() * 90) + 1);
+                            i = 0;
+                        }
+                        console.log(number)
+                        }
+
+                document.getElementById('num').innerHTML = number;
+                document.getElementById(number).style.backgroundColor='yellow';
+
+                if(box.length == 90 ){
+                    alert("Game-over!!!!!!!");
+                }
+                box.push(number);
+                }
+                document.getElementById('buttons').innerHTML = chart();
+        </script>
+        
+
+    </body>
+</html>

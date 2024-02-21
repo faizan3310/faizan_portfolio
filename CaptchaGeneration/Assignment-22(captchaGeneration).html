@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Captcha Generation</title>
+        <link rel="stylesheet" href="generate.css">
+        
+    </head>
+    <body>
+            <h2> Login Page (Captcha Generation) </h2>
+
+            <div class="box1">
+                <ul>
+                <li>
+                    <label for="name"> Enter Username : </label>
+                    <input type="text"  style="width: 200px; height: 20px; margin: 10px;"> 
+                </li>
+                <li>
+                    <label for="password"> Enter password:</label>
+                    <input type="password" style="width: 200px; height: 20px; margin: 10px;">
+                </li>
+                
+                <li>
+                    <div id="box"> </div>
+                    <input type="text"  placeholder=" Enter Captcha "  style="position: relative; left: 80px; top: -20px;" >
+                    <input type="button" value=" Generate"  onclick= "getcaptcha()" style="position: relative; top:20px; left: -40px; background-color: plum;">
+                </li>
+                <li>
+                    <input type="submit" value="submit" style="position: relative;top: 60px;">
+                </li>
+                </ul> 
+            </div>
+            <script>
+
+        
+               var getcaptcha = () => {
+                    var CaptchaValue =  randomuppercase() + randomnum() + randomlowercase() +randomuppercase()+ randomnum() + randomlowercase(); 
+                    document.querySelector('#box').innerHTML = CaptchaValue;
+                    randomnum();
+                    randomuppercase();
+                    randomlowercase();
+               }
+            
+                var randomuppercase = () => {
+                    var mincapital = 65;
+                    var maxcapital = 90;
+                    var uppercase = (Math.floor(Math.random() * 25) + mincapital);
+                    var capitalletter = String.fromCharCode(uppercase);
+                    console.log(capitalletter);
+                    return(capitalletter);
+                }
+
+                var randomlowercase = () => {
+                    var minlower = 97;
+                    var maxlower = 122;
+                    var lowercase = (Math.floor(Math.random() * 25) + minlower);
+                    var lowerletter = String.fromCharCode(lowercase);
+                    console.log(lowerletter);
+                    return(lowerletter);
+                    
+                }
+
+                var randomnum = () => {
+                    var num = 10;
+                    var randomNum = Math.floor(Math.random() * num);
+                    console.log(randomNum);
+                    return(randomNum);
+                    
+                }
+                getcaptcha();
+
+              
+               
+               
+            </script>
+    </body>
+</html>
