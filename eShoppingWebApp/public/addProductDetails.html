@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Shopping Web App</title>
+
+    <script src="lib/jquery.js"></script>
+    <script src="lib/handlebar.js"></script>
+    <script src="lib/axios.min.js"></script>
+    <script src="javascripts/uploadProductDetails.js"></script>
+   
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="stylesheets/uploadProductDetails.css" />
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/productDetails.css" />
+    <link rel="stylesheet" href="../public/templates/newSignup.htm"> 
+    <script src="javascripts/mainapp.js"></script>
+    <script src="javascripts/forgotPasswordValidation.js"></script>
+    
+    <script src="javascripts/userSignup.js"></script>
+    <script src="javascripts/Eyeicon.js"></script>
+    <link rel="stylesheet" href="stylesheets/signup.css">
+    <script src="lib/ratingStars_lib/rating.js"></script>
+    <link rel="stylesheet" href="lib/ratingStars_lib/rating.css" />
+    
+    <link rel="stylesheet" href="stylesheets/descriptiveProductDetailsPage.css">
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="lib/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body >
+    <div class="alert alert-primary" role="alert" id="pageAlertBlock">
+      hello all
+    </div>
+    
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap"></use>
+          </svg> -->
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            id="navbarlogo"
+          >
+            <li><img src="images/logo/logo-no-background.png" alt="" /></li>
+            <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+          <span class="wlcomeMsg">
+            Welcome <span id="header_userAccountId"></span>
+          </span>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input
+              type="search"
+              class="form-control form-control-dark"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <span class="loginSignupBtnContainer">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#pageLoginModel"
+                onclick="loadSelectedPage('Login')"
+              >
+                Login
+              </button>
+
+              <button
+                type="button"
+                class="btn btn-warning"
+                onclick="loadSelectedPage('signup')"
+              >
+                Sign-up
+              </button>
+            </span>
+         <!-- <div class="position-relative"> -->
+          <span onclick="loadSelectedPage('viewCart');">
+            <span id="cartCountValue" title="View Cart details"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </span>
+          <!--  <span id="cartIconCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="font-size: 0.7rem;">0</span> -->
+        <!-- </div> -->
+            <span class="logoutBtnContainer">
+              <button
+                type="button"
+                class="btn btn-primary"    onclick="logoutUser()"            
+              >
+                Logout
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <ul class="uploadContainer">
+        <li id="msgBlock"></li>
+        <li>
+          <input type="text" placeholder="productId" class="form-control" id="productId">
+        </li>
+        <li>
+          <select  id="category" class="form-control" >
+            <option value="Fashion">Fashion</option>
+            <option value="Electronics">Electronics</option>
+          </select>
+        </li>
+        <li>
+          <input type="text" placeholder="Product Name"  class="form-control" id="name">
+        </li>
+        <li>
+          <input type="text" placeholder="Product Large Name"  class="form-control" id="name_lrg">
+        </li>
+        <li>
+          <input type="number" placeholder="Price"  class="form-control" id="price">
+        </li>
+        <li>
+          <input type="number" placeholder="Discount Percent"  class="form-control" id="discountPercent">
+        </li>
+        <li>
+          <input type="number" placeholder="Rating"  class="form-control" id="rating">
+        </li>
+        <li>
+          <input type="text" placeholder="Manufacturer"  class="form-control" id="manu">
+        </li>
+        <li>
+          <form method ="POST"  enctype="multipart/form-data">
+            <input type="file" name="prodImage" multiple> 
+            <input type="button" value="Upload image" onclick="sendImageToServer()">
+          </form>
+        </li>
+        <li>
+          <input type="text" placeholder="Product Description"  class="form-control" id="description">
+        </li>
+        <li>
+          <input type="number" placeholder="Items in Stock"  class="form-control" id="itemsInStock">
+        </li>
+        <li>
+          <input type="button" value="Save Details" class="btn btn-primary" onclick="saveProductDetails()">
+        </li>
+      </ul>
+    </div>
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-control"
+                placeholder="Email address"
+              />
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div
+        class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+      >
+        <p>© 2024 NIT Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="link-dark" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

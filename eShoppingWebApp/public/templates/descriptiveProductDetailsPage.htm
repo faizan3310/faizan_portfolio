@@ -1,0 +1,60 @@
+<div class="row" style="margin-top: 90px">
+  <br />
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-2">
+        {{#each imageList}}
+        <div
+          class="sideImage"
+          style="background-image: url({{this}});background-size:100% 100%;"
+          onclick="showSelectedImage('{{this}}')"
+        ></div>
+        {{/each}}
+      </div>
+      <div class="col-md-10">
+        <div
+          class="mainImage"
+          style="background-image: url({{image}});background-size:100% 100%;"
+        ></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="b1">{{name}}</div>
+    <div class="b2" style="width: 600px"><b>{{name_lrg}} </b></div>
+    <div>
+      <div class="b3-1"><b>{{rating}}</b></div>
+      <span id="rating_container"> </span>
+      <span class="b3-2"> 712 Ratings | Search this page </span>
+    </div>
+    <div class="">M.R.P: <span class=""> {{price}}/- </span></div>
+
+    <div class=""></div>
+    <div class="">
+      {{#each productDetails}}
+      <div><b>{{@key}} : {{this}}</b></div>
+      {{/each}}
+    </div>
+    <div class="">
+      <div class="">
+        <span class="b13-2"> <b> ₹ {{price}}</b></span>
+      </div>
+    </div>
+
+    <div style="margin: 20px; padding: 10px">
+      <button
+        class="btn btn-warning"
+        onclick="addItemToCart('{{productId}}')"
+        onclick="ItemAddedToCount()"
+      >
+        Add to cart
+      </button>
+      <select name="" id="" class="btn btn-success" style="margin: 10px">
+        <option value="">Quantity</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+      </select>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+
+.starContainer {
+    display: flex;
+}
+.starContainer div {
+    background-image: url("images/ratingImage.PNG");
+    width: 23px;
+    height: 30px;
+}
+
+.halfStar {
+    background-position: 57px 29px;
+}
+.disableStar{
+    background-position: -60px 30px;
+}

@@ -1,0 +1,19 @@
+#openeyepwd,#closedeyepwd{
+    position: absolute;
+    top: 518px;
+    left: 957px;
+
+}
+#openeyecon,#closedeyecon{
+    position: absolute;
+    top: 595px;
+    left: 957px;
+
+}
+#closedeyepwd,#closedeyecon{
+    display:none;
+}.msgblock{
+    color:green;
+    font-size: 25px;
+    font-weight: bold;
+}

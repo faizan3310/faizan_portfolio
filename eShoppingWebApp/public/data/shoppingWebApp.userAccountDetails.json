@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65f11cafdc54e2037600438a"
+  },
+  "accountId": "user_admin",
+  "password": "$2b$05$/uvGaCXbjU0RX2NvjoOc3.Cit/5ZkvRTZI3WKi7csYi5fwY/Ej7YS",
+  "mailId": "abc@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "65f11ce6f5cb9ba31e71cea8"
+  },
+  "accountId": "user_admin1",
+  "password": "$2b$05$mpPTDefzAQgI560bAkqdS.NIr8mNWnKcjDELnpuj695wCGXEDETt.",
+  "mailId": "abc@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "65f3b638652a541e6d5b9ee5"
+  },
+  "accountId": "user_new",
+  "password": "$2b$05$xo5yDuh6dGMwGJ06dvo6DeYl8czLXszLb1DIisZJAQcZT.jNW0V9W",
+  "mailId": "user@gmail.com"
+}]

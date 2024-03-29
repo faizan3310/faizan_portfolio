@@ -1,0 +1,116 @@
+
+<ul class="newSingupDetails">
+  <li class="userRegistrationTitle">
+    <b> User Registration</b>
+  </li>
+  <li>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Enter user account id" id="accountId"
+    />
+  </li>
+  <li>
+    <input
+      type="password"
+      class="form-control"
+      placeholder="Enter account password" id="password"
+    />
+    <svg xmlns="http://www.w3.org/2000/svg" id="openeyepwd" onclick="signuppwdchangeTheType()" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+      <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+      <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" 
+    id="closedeyepwd" onclick="signuppwdchangeTheType()" width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+      <path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7 7 0 0 0 2.79-.588M5.21 3.088A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474z"/>
+      <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12z"/>
+    </svg>
+  </li>
+  <li>
+    <input
+      type="password"
+      class="form-control"
+      placeholder="re-enter account password" id="conpassword"
+    />
+    <svg xmlns="http://www.w3.org/2000/svg" id="openeyecon" onclick="confirmpwdchangeTheType()" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+      <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+      <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" id="closedeyecon" onclick="confirmpwdchangeTheType()" width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+      <path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7 7 0 0 0 2.79-.588M5.21 3.088A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474z"/>
+      <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12z"/>
+    </svg>
+  </li>
+  <li>
+    <input id="userMailid" type="text" placeholder="Enter user mail id" class="form-control" />
+  </li>
+
+ <!-- <div id="captchaContainer" style="position: relative; top: 50px;"></div> -->
+ <!-- <img id="refreshButton" src="../images/slider/refresh.png" onclick="setCapthcaTextImage()" alt="Refresh Captcha"> -->
+  <li>
+    <button class="btn btn-primary" onclick="getUserSignup()">Register</button>
+    <button class="btn btn-secondary" onclick="loadSelectedPage('home')">
+      << Back to Home
+    </button>
+  </li>
+  <li>
+    <div class="mb-3 msgblock"></div>
+  </li>
+</ul>
+  <script>
+   /* var setCapthcaTextImage = () => {
+            var canvas = document.createElement("canvas");
+            canvas.width = 200;
+            canvas.height = 80;
+            var ctx = canvas.getContext("2d");
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            for (var i = 0; i < 50; i++) {
+                var x = Math.random() * canvas.width;
+                var y = Math.random() * canvas.height;
+                var width = Math.random() * 40;
+                var height = Math.random() * 40;
+                ctx.fillStyle = randomColor();
+                ctx.fillRect(x, y, width, height);
+            }
+            var captchaValue = generateRandomString(6);
+            ctx.font = "italic bold 40px Arial";
+            ctx.fillStyle = "black";
+            for (var i = 0; i < captchaValue.length; i++) {
+                var x = i * 30 + Math.random() * 20;
+                var y = 50 + Math.random() * 20;
+                var rotation = Math.random() * 0.4 - 0.2;
+                ctx.save();
+                ctx.translate(x, y);
+                ctx.rotate(rotation);
+                ctx.fillText(captchaValue[i], 0, 0);
+                ctx.restore();
+            }
+            var imageDataURL = canvas.toDataURL();
+            var captchaImage = new Image();
+            captchaImage.src = imageDataURL;
+            var captchaContainer = document.getElementById("captchaContainer");
+            captchaContainer.innerHTML = "";
+            captchaContainer.appendChild(captchaImage);
+        };
+
+        function generateRandomString(length) {
+            var charset =
+                "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            var randomString = "";
+            for (var i = 0; i < length; i++) {
+                var randomIndex = Math.floor(Math.random() * charset.length);
+                randomString += charset.charAt(randomIndex);
+            }
+            return randomString;
+        }
+
+        function randomColor() {
+            return "#" + Math.random().toString(16).slice(2, 8);
+        }
+
+        // Call the function to generate CAPTCHA when the page loads
+        window.onload = function() {
+            setCapthcaTextImage();
+        }; */
+  </script> 

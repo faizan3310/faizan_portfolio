@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div(id="test" class="sample")
+    | Hello every one - 
+    h1
+        | Employee details...
+    ul 
+        li #{name}
+        li #{age}
+        li #{gender}
+
+  

@@ -1,0 +1,361 @@
+#pageContainer {
+  main {
+    min-height: 400px;
+  }
+}
+
+.categoryFilterBlock img {
+  width: 90%;
+  height: 150px;
+  margin: 10px;
+}
+
+.loginContent {
+  li {
+    list-style: none;
+    margin: 10px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+}
+.modal-body {
+  height: 380px;
+  background-color: rgb(250, 235, 235);
+}
+
+#pageLoginModel .modal-footer button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.newSingupDetails {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 550px;
+  margin: 10px auto;
+  padding: 10px;
+  background: linear-gradient(#ffffff, #6dd5fa, #2980b9);
+
+  li {
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .userRegistrationTitle {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+  }
+}
+
+.forgotPasswordDetails {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 550px;
+  margin: 10px auto;
+  padding: 10px;
+  background: linear-gradient(rgb(1, 218, 247), white);
+
+  li {
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  .passwordAssistance {
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+  }
+
+  .validationlist {
+    position: relative;
+    left: 70px;
+    display: none;
+  }
+
+  #openeye {
+    position: relative;
+    top: -35px;
+    left: 200px;
+  }
+  #closedeye {
+    position: relative;
+    top: -35px;
+    left: 200px;
+  }
+}
+
+#metaContentBlock .col-md-4 {
+  transition: all ease 1s;
+}
+
+#metaContentBlock .col-md-4:hover {
+  scale: 1.1;
+}
+
+.py-5 {
+  padding: 20px;
+  /* border-radius: 20px; */
+}
+
+#navbarlogo li img {
+  width: 120px;
+}
+
+#navbarlogo li a {
+  margin-left: 20px;
+  font-weight: 700;
+  transition: ease-out 1s;
+  border: 2px solid transparent;
+}
+
+#navbarlogo li a:hover {
+  color: gold !important;
+  scale: 1.1;
+  border: 2px solid white;
+}
+
+.invalidMsgBlock {
+  text-align: center;
+  color: rebeccapurple;
+  font-size: 15px;
+}
+#captchaContainer {
+  border: 1px solid #000;
+  width: 120px;
+  height: 70px;
+  margin: 20px auto;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+}
+#captchaContainer img {
+  width: 100%;
+  height: 100%;
+}
+li input[type="text"] {
+  width: 100%;
+}
+.input-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.input-icon bi {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+#refreshButton {
+  width: 6%;
+  height: 10%;
+  cursor: pointer;
+}
+#slide {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-left: 2px;
+  transition: 1s;
+}
+#sliderContainer {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+#left {
+  z-index: 100;
+  /* top: -20px; */
+  left: 5px;
+}
+#right {
+  right: 5px;
+  /* top: 0px; */
+  z-index: 100;
+}
+.btnmove {
+  height: 120px;
+  top: 20% !important;
+  position: absolute;
+  width: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoutBtnContainer,
+.wlcomeMsg {
+  display: none;
+}
+.wlcomeMsg {
+  margin-right: 10px;
+}
+
+#userAccountId {
+  font-weight: bold;
+  color: orange;
+}
+
+.alert {
+  position: absolute;
+  width: 40%;
+  color: black;
+  background-color: rgb(241, 237, 219);
+  left: 30%;
+  bottom: 205px;
+  z-index: 1000;
+  text-align: center;
+  font-weight: 500;
+  display: none;
+  opacity: 0.8;
+}
+
+#cartCountValue {
+
+
+    position: relative;
+    left: 29px;
+    top: -17px;
+    color: orange;
+    font-weight: bold;
+    cursor: pointer;
+
+  position: relative;
+  left: 29px;
+  top: -17px;
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.ProductDetailsBlock img {
+  width: 160px;
+  height: 120px;
+}
+
+/* Cart Blocks */
+.CartsBlock1,
+.CartsBlock2,
+.CartsBlock3,
+.CartsBlock4,
+.CartsBlock5 {
+  border: 1px solid #ddd; /* Light gray border */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.CartsBlock1:hover,
+.CartsBlock2:hover,
+.CartsBlock3:hover,
+.CartsBlock4:hover,
+.CartsBlock5:hover {
+  transform: translateY(-3px); /* Move block slightly up on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase box shadow on hover */
+}
+
+/* Product Data Styling */
+.CartsBlock1,
+.CartsBlock2,
+.CartsBlock3,
+.CartsBlock4,
+.CartsBlock5 {
+  font-family: Arial, sans-serif; /* Use a common sans-serif font */
+  font-size: 14px; /* Adjust font size */
+  color: #333; /* Dark text color */
+}
+
+.CartsBlock1 img,
+.CartsBlock2 img,
+.CartsBlock3 img,
+.CartsBlock4 img,
+.CartsBlock5 img {
+  margin-right: 20px; /* Add space between image and text */
+}
+
+.CartsBlock1 svg,
+.CartsBlock2 svg,
+.CartsBlock3 svg,
+.CartsBlock4 svg,
+.CartsBlock5 svg {
+  cursor: pointer; /* Change cursor to pointer on trash icon */
+  fill: #888; /* Gray color for trash icon */
+  transition: fill 0.3s ease; /* Smooth transition for icon color change */
+}
+
+.CartsBlock1 svg:hover,
+.CartsBlock2 svg:hover,
+.CartsBlock3 svg:hover,
+.CartsBlock4 svg:hover,
+.CartsBlock5 svg:hover {
+  fill: #ff0000; /* Red color for trash icon on hover */
+
+}
+
+  position: relative;
+  left: 29px;
+  top: -17px;
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ProductDetailsBlock {
+  img {
+    width: 160px;
+    height: 120px;
+  }
+}
+.CartsBlock1,
+.CartsBlock2,
+.CartsBlock3,
+.CartsBlock4,
+.CartsBlock5 {
+  border: 2px solid;
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(255, 251, 226);
+  width: 50%;
+}
+.CartsBlock1,
+.CartsBlock2,
+.CartsBlock3,
+.CartsBlock4,
+.CartsBlock5 {
+  svg {
+    position: relative;
+    left: 470px;
+    top: -30px;
+  }
+}
+#CartDataBlocks {
+  b {
+    margin: 20px;
+  }
+}

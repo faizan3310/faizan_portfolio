@@ -1,0 +1,19 @@
+<div class="card" style="width: 13rem;" >
+    <img class="card-img-top" src="{{image}}" height="150px">
+    <div class="card-body">
+      <div class="row" style="font-weight: bold;"><span style="text-align: center;">{{name}}</span></div>
+      <div class="row">
+
+        <span class="actualPrice" 
+                      style="text-align: center; color: grey; text-decoration: line-through red;">₹ {{price}}</span>
+        <span class="discountedPrice" 
+                      style="text-align: center; color: hotpink; font-weight: bold;">₹ {{discountPrice}}</span>
+      </div>
+      <!-- <div class="row" style="font-weight: bold;"> <span style="text-align: center;">{{manu}}</span></div> -->
+      <div class="row" id="{{ratingId}}" style="position: relative; left: 50px;"></div>
+      <a class="link" href="/?pid={{productId}}" target="_blank">
+        View Details
+      </a>
+    </div>
+</div>
+

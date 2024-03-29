@@ -1,0 +1,86 @@
+.productDetailsContainer .card {
+    margin: 10px;
+}
+
+
+.categoryBlock{
+    width: 200px;
+    height: 500px;
+    border: 2px black;
+    overflow-y: scroll;
+}
+.categoriesHeader{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bi bi-search{
+    position: relative;
+    left: 55px;
+}
+li{
+    list-style: none;
+}
+.rectangle1{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px gray;
+    margin: 10px;
+}
+.rectangle2{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 255, 229);
+    border: 1px gray;
+    margin: 10px;
+}
+
+.rectangle3{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(9, 40, 3);
+    border: 1px gray;
+    margin: 10px;
+   
+}
+.rectangle4{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 0, 187);
+    border: 1px gray;
+    margin: 10px;
+    
+}
+.rectangle5{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 234, 0);
+    border: 1px gray;
+    margin: 10px;
+}
+.colorsRect{
+    display: flex;
+}
+.fullstar5{
+    display: flex;
+}
+.fullstar{
+    width: 20px;
+    height: 19px;
+    background-image: url(../images/Stars/fullstar.png);
+}
+.halfstar{
+    width: 20px;
+    height: 19px;
+    background-image: url(../images/Stars/halfstar.png);
+
+}
+.nostar{
+    width: 20px;
+    height: 19px;
+    background-image: url(../images/Stars/nostar.png);
+
+}
+
+
+
