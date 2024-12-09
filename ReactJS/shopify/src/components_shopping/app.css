@@ -1,0 +1,28 @@
+main {
+    display: grid;
+    grid-template-columns: 300px auto;
+    height: 500px;
+  }
+  
+  main div{
+    border: 1px solid;
+  }
+  
+  .leftContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leftContainer div{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: green;
+    background-color: aqua;
+  }
+
+  .leftContainer div:hover {
+    background-color: azure;
+    cursor: pointer;
+  }

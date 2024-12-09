@@ -1,0 +1,35 @@
+.customNavBar {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 100px auto 300px;
+}
+
+.customNavBar span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.menuContainer div{
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.menuContainer div:hover{
+    color: aqua;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button{
+    margin: 5px;
+}

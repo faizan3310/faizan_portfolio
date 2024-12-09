@@ -1,0 +1,32 @@
+.productDetailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productDetailsContainer > li {
+    width: 400px;
+    border: 1px solid;
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+    height: 350px;
+    box-shadow: 5px 5px 5px cyan;
+}
+
+.productDetailsContainer > li:hover {
+    box-shadow: 5px 5px 5px blue;
+}
+
+.productDetailsContainer img{
+    width: 300px;
+    height: 200px;
+}
+
+li {
+    list-style: none;
+}
+
+.morePdtDetail img{
+    width: 480px;
+    height: 350px;
+}

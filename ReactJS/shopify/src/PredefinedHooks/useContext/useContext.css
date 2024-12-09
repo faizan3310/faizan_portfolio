@@ -1,0 +1,43 @@
+.parentComp{
+    background-color: thistle;
+    padding: 150px;
+    /* border-radius: 20px auto;   */
+}
+
+.child1Comp{
+    background-color: yellow;
+    padding: 30px;
+    height: 200px;
+    margin: 10px;
+    /* border-radius: 20px auto; */
+}
+
+.child2Comp{
+    background-color: magenta;
+    padding: 30px;
+    height: 200px;
+    margin: 10px;
+    /* border-radius: 20px auto; */
+}
+
+.child3Comp{
+    background-color: aqua;
+    padding: 30px;
+    height: 200px;
+    margin: 10px;
+    /* border-radius: 20px auto; */
+}
+
+.child4Comp{
+    background-color: blueviolet;
+    padding: 30px;
+    height: 200px;
+    margin: 10px;
+    /* border-radius: 20px auto; */
+}
+
+.innerChild{
+    background-color: orange;
+    padding: 30px;
+    margin: 10px;
+}

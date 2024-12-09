@@ -1,0 +1,8 @@
+.footerTitle{
+    color: blue;
+    border: 3px solid lightblue;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    top: 600px;
+}

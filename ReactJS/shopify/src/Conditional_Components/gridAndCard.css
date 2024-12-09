@@ -1,0 +1,28 @@
+.tableComponent img {
+    width: 200px;
+    height: 130px;
+}
+
+.cardBlockContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardBlock{
+    border: 1px solid black;
+    width: 250px;
+    height: 360px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.cardBlock li{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.cardBlock img{
+    width: 200px;
+    height: 130px;
+}
