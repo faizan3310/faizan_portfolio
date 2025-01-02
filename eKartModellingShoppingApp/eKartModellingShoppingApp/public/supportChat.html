@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <script src="lib/jquery.js"></script>
+        <title>Document</title>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js" integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="javascripts/chatApp.js"></script>
+        <style>
+            
+        .chatBox {
+            position: absolute;
+            width: 300px;
+            height: 450px;
+            border: 1px solid orange;
+            border-radius: 10px;
+            bottom: 10px;
+            right: 10px;
+        }
+        .btncontainer {
+            height: 150px;
+            border-top: 1px solid #ddd;
+            padding: 5px;
+            display: flex;
+
+        }
+
+        .btncontainer input[type=button] {
+            height: 80px;
+            margin-left: 10px;
+        }
+
+        .msgContainer {
+            height: 350px;
+        }
+        #userMsg {
+            height: 80px;
+            font-size: 20px;
+            width: 75%;
+        }
+
+        .sendMsg {
+            color: maroon;
+            margin: 5px;
+        }
+
+        .receiveMsg {
+            color: blue;
+            font-weight: bold;
+            text-align: right;
+            margin: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="chatBox">
+            <div class="msgContainer"></div>
+            <div class="btncontainer">
+                <input type="text" id="userMsg" class="form-control">
+                <input type="button" value="Send" class="btn btn-primary" id="sendBtn" onclick="getUserMsg()">
+            </div>
+        </div>
+    </body>
+</html>

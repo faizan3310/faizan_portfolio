@@ -1,0 +1,71 @@
+
+Kavya - > offers block - DONE
+Shankar -> Header part along with logo changes - DONE  
+Laxmi -> Left navigation, filters block on product details page - DONE 
+Shankar -> Find a way to not to get auto suggestion for text box -  DONE
+Siri -> login popup changes - look and feel. - DONE.
+Implement Remember my credentials - Siri - DONE.
+Captcha rendering on login page - > Priya - Done.
+right side product details with sample data - Priya - Done.
+Footer part look and feel changes - Done - Kavya
+
+-----------------------------------
+
+Sireesha -> Slider show - Pending
+
+Footer part look and feel changes - Pending - Kishore
+
+
+
+
+
+-------------------
+R&D on how to make Chrome to not to show the popup on login - DONE - Kavya       goto    chrome://password-manager/settings   disable  offer to save Passwords
+
+The main reason behind this is when you take input type = "text" and input type = "password" 
+major browser shows that pop up. Because browsers have inbuilt functionality 
+to show that pop up when you take input type = "password". done through CSS  -webkit-text-security:disc;
+#acctPassword{
+  -webkit-text-security:disc;
+}
+or 
+do manually
+chrome settings-->goto google password manager --> turn off the offer to save the password 
+--------------------
+
+Creating JSON Object data:
+
+10 to 15 product details
+
+  kids -> Kavya --> Done
+  womens -> laxmi --> Done
+  mens -> srinivas --> Done
+  clothing 
+  electronics --> Kavya --> Done
+  books -> Priya --> Done
+  fashon
+  shoes --> Priya --> Done 
+
+
+  shoesData.JSON  
+    [
+      {
+
+      }
+    ]
+
+
+----------------
+after signup redirecting to loginpage - Done
+
+-----------
+Managing Session in nodejs 
+Mail sending 
+Analytics implmentation
+JWT
+Upload resources from client to server (files )
+Payment gateway  -theory 
+Add to cart 
+Server side gendered ui pages  - Views 
+SMS 
+Socket io - Chat communication

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="lib/axios.js"></script>
+        <script src="lib/jquery.js"></script>
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="javascripts/uploadProdcutDetails.js"></script>
+        <link rel="stylesheet" href="css/addNewProductDetails.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                Add new product Details
+            </div>
+        </div>
+        <div class="successBlock"></div>
+        <ul class="addNewProductDetails">
+            <li>
+                <input type="text" class="form-control" id="mainTitle" placeholder="Main Title">
+            </li>
+            <li>
+                <textarea id="productDescription" class="form-control" placeholder="Product Description"></textarea>
+            </li>
+            <li>
+                <!-- <input type="text" class="form-control" id="mainImage" placeholder="Main Image" aria-placeholder="Main image url"> -->
+                 <form method="POST"  enctype="multipart/form-data">
+                    <input type="file" name="prodImage" > 
+                    <input type="button" value="Upload image" onclick="uploadProductImage()">
+                </form>
+            </li>
+            <li>
+                <input type="text" class="form-control" id="boughtMsg" placeholder="Bought message" >
+            </li>
+            <li>
+                <input type="number" placeholder="Actual Price" id="actualPrice" class="form-control">
+            </li>
+            <li>
+                <input type="number" placeholder="Discount Percent" id="discountPercent" class="form-control">
+            </li>
+            <li>
+                <input type="text" placeholder="Delivery Offer Message" id="deliveryOfferMsg" class="form-control">
+            </li>
+            <li>
+                <input type="text" placeholder="Meta info" id="metaInfo" class="form-control">
+            </li>
+            <li>
+                <select class="form-control" id="category">
+                    <option value="Shoes">Shoes</option>
+                    <option value="Books">Books</option>
+                    <option value="Shoes & Footwear">Shoes & Footwear</option>
+                </select>
+            </li>
+            <li>
+                <input type="number" id="rating" placeholder="Rating" class="form-control">
+            </li>
+            <li>
+                <input type="button" class="btn btn-primary" value="Upload Details" onclick="readProductDetails()">
+            </li>
+        </ul>
+
+
+    </body>
+</html>

@@ -1,0 +1,266 @@
+[
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/71R+2i0HPdL._SX679_.jpg",
+        "productId": "e_01",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/61fP7nnxueL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71W3qkAqn-L._SX679_.jpg"
+        ],
+        "mainTitle": "Kettle",
+        "productDescription": "Butterfly Stainless Steel Matchless Multi Kettle 1.2 Liter - With Egg Rack + Ss Rack, 600 Watts",
+        "boughtMsg": "50+ bought in past month",
+        "actualPrice": "1999",
+        "discountPercent": 40,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 4.1,
+        "details": {
+            "Brand": "Butterfly",
+            "Colour": "Silver",
+            "Special Feature": "Indicator Light, Heat Resistant Handle, Boil Dry Protection, Overheat Protection, Automatic Shut-Off",
+            "Material": "Polished",
+            "Country of Origin": "India"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/71msFUl565L._SX679_.jpg",
+        "productId": "e_02",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/71msFUl565L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51hIkXnPMzL._SX38_SY50_CR,0,0,38,50_.jpg"
+        ],
+        "mainTitle": "Washing Machine",
+        "productDescription": "LG 7 Kg, 5 Star, Direct Drive Technology, Steam Wash, 6 Motion DD, Smart Diagnosis, Fully-Automatic Front Load Washing Machine (FHM1207SDM, Allergy Care, In-Built Heater, Touch Panel, Middle Black)",
+        "boughtMsg": "1K+ bought in past month",
+        "actualPrice": "43,990",
+        "discountPercent": 32,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 4.1,
+        "details": {
+            "Brand": "LG",
+            "Colour": "Middle Black",
+            "Special Feature": "Inverter, Child Lock, Auto Restart, Hygiene Steam, Inbuilt Heater",
+            "Material": "Stainless Steel",
+            "Country of Origin": "India"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+        "productId": "e_03",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61liyLRofIL._SX679_.jpg"
+        ],
+        "mainTitle": "Micro Oven",
+        "productDescription": "IBELL 30GDLX Convection Oven Toaster Grill 30L, 1600 Watt with Motorised Rotisserie, Cake Baking OTG with 5 Heating Modes, Illuminated Chamber (Black)",
+        "boughtMsg": "20+ bought in past month",
+        "actualPrice": "12,900",
+        "discountPercent": 59,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.9,
+        "details": {
+            "Brand": "IBELL",
+            "Colour": "IBLEO30LGDLX",
+            "Special Feature": "Temperature Control, Timer",
+            "Material": "Stainless steel",
+            "Country of Origin": "China"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/71sCoyZ7qTL._SX679_.jpg",
+        "productId": "e_04",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/71sCoyZ7qTL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51Aqmy5KMbL._SS100_.jpg"
+        ],
+        "mainTitle": "Hand Blender with Chopper",
+        "productDescription": "FUMATO 600W Electric Hand Blender with Chopper, Coffee Frother, Whisker & Jar- Turbo Function & Speed Regulator, 100% Copper Motor, Stainless Steel Stem & Blades, Splash-Proof | 1 Yr Warranty (Pink)",
+        "boughtMsg": "50+ bought in past month",
+        "actualPrice": "3,999",
+        "discountPercent": 52,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.9,
+        "details": {
+            "Brand": "The Better Home",
+            "Colour": "Pink",
+            "Special Feature": "Portable, Detachable Attachment",
+            "Material": "Stainless steel",
+            "Country of Origin": "China"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/51BV1bc0fhL._SX466_.jpg",
+        "productId": "e_05",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/51BV1bc0fhL._SX466_.jpg",
+            "https://m.media-amazon.com/images/I/61NoBZ4QuTL._SX466_.jpg"
+        ],
+        "mainTitle": "Food Weight Machine",
+        "productDescription": "Eagle Stainless Steel Digital Kitchen Weighing Scale with 10 kg Capacity & 1 Gram Accuracy, Food Weight Machine for Diet, Nutrition, Health, Fitness, Baking & Cooking (Silver)",
+        "boughtMsg": "700+ bought in past month",
+        "actualPrice": "1999",
+        "discountPercent": 77,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.6,
+        "details": {
+            "Brand": "EAGLE",
+            "Colour": "White",
+            "Special Feature": "Backlit Display, Auto Shut Off, Smar",
+            "Material": "Stainless steel",
+            "Country of Origin": "india"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/513LHiIlk1L._SX679_.jpg",
+        "productId": "e_06",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/513LHiIlk1L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/41m+3wpelNL._SS100_.jpg"
+        ],
+        "mainTitle": "Bread Toaster",
+        "productDescription": "iBELL TOAST600M Auto Pop-up Bread Toaster 2 Slices, 750W, 7 Browning Modes and Removable Crumb Tray (White)",
+        "boughtMsg": "100+ bought in past month",
+        "actualPrice": "2,590",
+        "discountPercent": 61,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.9,
+        "details": {
+            "Brand": "IBELL",
+            "Colour": "White TOAST",
+            "Special Feature": "Variable Browning Control, Cancel Function",
+            "Material": "Plastic",
+            "Country of Origin": "China"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+        "productId": "e_07",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61liyLRofIL._SX679_.jpg"
+        ],
+        "mainTitle": "Micro Oven",
+        "productDescription": "IBELL 30GDLX Convection Oven Toaster Grill 30L, 1600 Watt with Motorised Rotisserie, Cake Baking OTG with 5 Heating Modes, Illuminated Chamber (Black)",
+        "boughtMsg": "20+ bought in past month",
+        "actualPrice": "12,900",
+        "discountPercent": 59,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.9,
+        "details": {
+            "Brand": "IBELL",
+            "Colour": "IBLEO30LGDLX",
+            "Special Feature": "Temperature Control, Timer",
+            "Material": "Stainless steel",
+            "Country of Origin": "India"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+        "productId": "e_08",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61liyLRofIL._SX679_.jpg"
+        ],
+        "mainTitle": "Micro Oven",
+        "productDescription": "IBELL 30GDLX Convection Oven Toaster Grill 30L, 1600 Watt with Motorised Rotisserie, Cake Baking OTG with 5 Heating Modes, Illuminated Chamber (Black)",
+        "boughtMsg": "20+ bought in past month",
+        "actualPrice": "12,900",
+        "discountPercent": 59,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.9,
+        "details": {
+            "Brand": "IBELL",
+            "Colour": "IBLEO30LGDLX",
+            "Special Feature": "Temperature Control, Timer",
+            "Material": "Stainless steel",
+            "Country of Origin": "India"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+        "productId": "e_09",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61liyLRofIL._SX679_.jpg"
+        ],
+        "mainTitle": "Micro Oven",
+        "productDescription": "IBELL 30GDLX Convection Oven Toaster Grill 30L, 1600 Watt with Motorised Rotisserie, Cake Baking OTG with 5 Heating Modes, Illuminated Chamber (Black)",
+        "boughtMsg": "20+ bought in past month",
+        "actualPrice": "12,900",
+        "discountPercent": 59,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.9,
+        "details": {
+            "Brand": "IBELL",
+            "Colour": "IBLEO30LGDLX",
+            "Special Feature": "Temperature Control, Timer",
+            "Material": "Stainless steel",
+            "Country of Origin": "India"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/714KKzqvx9L._SX679_.jpg",
+        "productId": "e_10",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/714KKzqvx9L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51cbc+g4fXL._SS100_.jpg"
+        ],
+        "mainTitle": "Electric Rice Cooker",
+        "productDescription": "FUMATO 500W Electric Rice Cooker with Single Pot-1.5L | 3-in-1 Electric Cooker, Boiler & Steamer | Aluminum Pot, Keep Warm Function, Cool Touch Body, Includes Measuring Cup | 1 Year Warranty- Teal",
+        "boughtMsg": "20+ bought in past month",
+        "actualPrice": "4,599",
+        "discountPercent": 59,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 4.3,
+        "details": {
+            "Brand": "The Better Home",
+            "Colour": "Misty Blue",
+            "Special Feature": "Portable, Lightweight, Automatic Shut Off",
+            "Material": "Stainless steel",
+            "Country of Origin": "China"
+        }
+    },
+    {
+        "mainImage": "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+        "productId": "e_10",
+        "imageList": [
+            "https://m.media-amazon.com/images/I/61uPSfMNXgL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61liyLRofIL._SX679_.jpg"
+        ],
+        "mainTitle": "Micro Oven",
+        "productDescription": "IBELL 30GDLX Convection Oven Toaster Grill 30L, 1600 Watt with Motorised Rotisserie, Cake Baking OTG with 5 Heating Modes, Illuminated Chamber (Black)",
+        "boughtMsg": "20+ bought in past month",
+        "actualPrice": "12,900",
+        "discountPercent": 59,
+        "deliveryOfferMsg": "FREE delivery Sunday 4 August for Prime members",
+        "category": "electronics",
+        "metaInfo": "",
+        "rating": 3.9,
+        "details": {
+            "Brand": "IBELL",
+            "Colour": "IBLEO30LGDLX",
+            "Special Feature": "Temperature Control, Timer",
+            "Material": "Stainless steel",
+            "Country of Origin": "China"
+        }
+    }
+]

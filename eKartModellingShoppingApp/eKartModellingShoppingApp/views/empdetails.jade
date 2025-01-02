@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to Page - 
+    h3 
+        |Employee Details: 
+
+    ul
+        for empData in details
+            li 
+                div
+                    |Emp Name: #{empData.name}
+                div 
+                    img(src="#{empData.image}")

@@ -1,0 +1,107 @@
+.pDetailsBlock {
+    display: grid;
+    grid-template-columns: 180px auto;
+    overflow-x: hidden;
+}
+span{
+    color: orange;
+}
+.form-select{
+    border-radius: 20px;
+    width: 171px;
+    position: absolute;
+    left: 1122px;
+    font-size: x-small;
+} 
+.p-2{
+    position: absolute;
+    top: 133px;
+    left: 427px;
+    border-right: 1px solid #e9c6c6;
+    padding: 10px;
+    cursor: pointer;
+}
+.adver{
+    position: relative;
+    top: -656px;
+    left: 296px;
+    cursor: pointer;
+}
+.adver:hover{
+    color: red;
+}
+.sponserBlock{
+    background-color: aliceblue;
+    border: 2px solid #ffffff75;
+    width: 74%;
+    height: 29%;
+    margin: 10px;
+    padding: 6px;
+    position: absolute;
+    top: 213px;
+    left: 386px;
+}
+.adver_container{
+    position: relative;
+    left: 456px;
+    top: -228px;
+    margin: -7px;
+}
+.box{
+    /* border-left: 1px solid rgb(235, 216, 216); */
+    border: 1px solid #dee2e6;
+    width: 19%;
+    height: 19%;
+    margin: 15px;
+    text-align: left;
+    position: relative;
+    top: -3px;
+}
+.star-rating {
+    color: #FFD700;
+}
+.bi-check{
+    font-size: xx-larger;
+    color: yellowgreen;
+}
+.side p{
+    position: relative;
+    top: -402px;
+    left: 146px;
+    float: right;
+    cursor: pointer;
+}.types{
+    position: absolute;
+    top: 241px;
+    left: -438px;
+}
+
+.results{
+    position: relative;
+    top: -347px;
+    left: 200px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    position: relative;
+    top: -336px;
+    left: 187px;
+    background-color: #f8f9fa;
+}
+.grid-container img {
+    width: 100%;
+    height: auto;
+    
+}
+.edit{
+    border: 1px solid #dee2e6;
+    text-align: left;
+    padding: 6px;
+}
+.point{
+    font-size: x-small;
+    cursor: pointer;
+    text-align: left;
+}

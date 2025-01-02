@@ -1,0 +1,16 @@
+<div class="edit singleproductData">
+    <img src="{{mainImage}}" alt="Image 1">
+    <p class = "point">Sponsored <i class="bi bi-info-circle-fill"></i></p>
+    <p>{{mainTitle}}</p>
+    <div class="star-rating" id="ratingContainer_{{index}}"></div>
+    <p style="font-size: small">{{boughtMsg}}</p>
+    <button type="button" class="btn btn-danger btn-sm">Limited Time Deal</button>
+    <h6>₹{{discountedPrice}} <sub>M.R.P: ₹{{actualPrice}} ({{discountPercent}}% off)</sub></h6>
+    {{offerMsg}}<br>
+    {{deliveryOfferMsg}}<br>
+    <button type="button" class="btn btn-warning btn-sm" onclick="addItemToCart('{{productId}}')">Add to Cart</button><br>
+    <p style="font-size: small">{{metaInfo}}</p>
+</div>
+
+
+
