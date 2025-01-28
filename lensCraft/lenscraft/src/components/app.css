@@ -1,0 +1,54 @@
+.formData {
+    border: 1px solid black;
+    /* width: 500px; */
+    margin: 5px;
+    padding: 10px;
+    /* background-color: #fff; */
+}
+
+.formData li {
+    border: 1px solid;
+    background-color: #ccc;
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+}
+
+.errorMsg{
+    color: red;
+    font-size: 12px;
+}
+
+photoDetailsContainer{
+    display: block;
+    background-color: lightyellow;
+}
+
+.mainContent{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+moreDetailsContainer{
+    display: block;
+    background-color: lightyellow;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.moreDetailsBlock{
+    list-style: none;
+}
+
+.imageDimension img{
+    width: 500px;
+    height: 350px;
+}
+
+.commentDetailsBlock li{
+    /* text-align: left; */
+    list-style: none;
+}
