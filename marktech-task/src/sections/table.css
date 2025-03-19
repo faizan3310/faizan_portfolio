@@ -1,0 +1,10 @@
+.header{
+    color: darkred !important ;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    background-color: coral !important;
+}
+
+.content{
+    font-size: 15px !important;
+}
