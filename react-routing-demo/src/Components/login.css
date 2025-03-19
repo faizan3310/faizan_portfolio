@@ -1,0 +1,14 @@
+.loginBlock {
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid;
+    width: 500px;
+    background-color: #ccc;
+}
+
+.loginBlock li {
+    background-color: #fff;
+    border: 1px solid orange;
+    margin: 20px;
+    padding: 20px;
+}
