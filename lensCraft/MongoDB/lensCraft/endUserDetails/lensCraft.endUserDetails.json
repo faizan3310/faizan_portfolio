@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "6784bf97db7035f965146350"
+  },
+  "userID": "faizan123@gmail.com",
+  "password": "Faizan@123"
+},
+{
+  "_id": {
+    "$oid": "6787b8f087aea064e18cd0e3"
+  },
+  "userID": "JackSparrow77@gmail.com",
+  "password": "Jack@123",
+  "likesAndDislikes": {
+    "n_101": {
+      "likes": true,
+      "dislikes": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67893a6f4050924d279ec62b"
+  },
+  "userID": "steverogers@gmail.com",
+  "password": "CaptainA@123"
+},
+{
+  "_id": {
+    "$oid": "67893a914050924d279ec62c"
+  },
+  "userID": "Ironman001@gmail.com",
+  "password": "Stark@123"
+}]
