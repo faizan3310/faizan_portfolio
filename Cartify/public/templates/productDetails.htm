@@ -1,0 +1,51 @@
+<div class="row">
+
+    <div class="col-md-2">
+        <div>
+            <b>Price Range</b>  <br>
+            <input type="range" min="100" max="1000" step="100" onchange="setPriceRange()" id="priceRangeBar">
+            <b id="selectedPrice"></b>
+        </div>
+       
+        <div>
+            <button class="btn btn-secondary" onclick="applyFilter()">
+                Apply Filter
+            </button>
+        </div>
+
+        <div>
+            <div><b>Categories</b></div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="men's clothing" id="mensCheck">
+                <label class="form-check-label" for="mensCheck">Men's clothing</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="women's clothing" id="womensCheck">
+                <label class="form-check-label" for="womensCheck">Women's clothing</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="jewelery" id="jeweleryCheck">
+                <label class="form-check-label" for="jeweleryCheck">Jewelery</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="electronics" id="electronicsCheck">
+                <label class="form-check-label" for="electronicsCheck">Electronics</label>
+            </div>
+
+            <div>
+                <button class="btn btn-secondary" onclick="getCheckedCategories()">Get Selected Categories</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="col-md-10" id="productDetailsContainer">
+        
+    </div>
+
+</div>
